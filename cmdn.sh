@@ -15,15 +15,3 @@ else
     echo "Error: Failed to install dependencies. Exiting..."
     exit 1
 fi
-
-# Run the server
-echo "Starting the server..."
-node ./server.js
-
-# Check if the server started successfully
-if [ $? -eq 0 ]; then
-    echo "Server is running."
-else
-    echo "Error: Failed to start the server. Exiting..."
-    exit 1
-fi
