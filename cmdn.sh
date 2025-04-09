@@ -18,7 +18,7 @@ fi
 
 # Run the server
 echo "Starting the server..."
-node server.js
+node ./server.js
 
 # Check if the server started successfully
 if [ $? -eq 0 ]; then
